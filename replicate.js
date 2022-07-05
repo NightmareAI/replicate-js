@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios').default;
 
 const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined";
 const isNode = typeof process !== "undefined" && process.versions != null && process.versions.node != null;
